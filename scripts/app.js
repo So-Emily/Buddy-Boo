@@ -7,7 +7,7 @@ function updateStatus(){
 }
 
 function feedPet() {
-    hunger = math.max(0, hunger - 10);
+    hunger = Math.max(0, hunger - 10);
     updateStatus();
 }
 
